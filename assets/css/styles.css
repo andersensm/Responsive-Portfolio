@@ -1,3 +1,5 @@
+
+
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
   color: #2AB546;
@@ -299,4 +301,288 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width:980px) {
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .container2 {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .container3 {
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .ProfilePicture {
+    width: 100%;
+    height: 75%;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  .pSpecial {
+   font-family: 'Raleway', sans-serif;
+   color: #777777;
+   margin-left: 10px;
+   margin-right: 40px;
+  }
+  .aboutMeContainer {
+    width: 500px;
+    float: left;
+    border-bottom-style: solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-width: 5px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  .connectWithMeContainer {
+    width: 240px;
+    height: 150px;
+    border-bottom-style: solid;
+    margin-top: 25px;
+    border-width: 5px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  .hr1 {
+    width: 460px;
+    color: #666666;
+  }
+  .hr2 {
+    width: 210px;
+    color: #666666;
+    margin-left: 12px;
+  }
+  .github {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-left: 15px;
+  }
+  .aboutMe {
+    margin-left: 20px;
+  }
+  .beach, .burger, .music, .nightlife, .dog {
+    margin-right: 20px;
+    top: 270px;
+    width: 85%;
+    height: 265px;
+  }
+  .absolute1, .absolute2, .absolute3, .absolute4, .absolute5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 85%;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 28px;
+    background: #2AB546;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .absolute2, .absolute4 {
+    top: 510px;
+  }
+}
+@media screen and (max-width:768px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .container2 {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .container3 {
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .ProfilePicture {
+    width: 50%;
+    height: 50%;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  .pSpecial {
+   font-family: 'Raleway', sans-serif;
+   color: #777777;
+   margin-left: 10px;
+   margin-right: 40px;
+  }
+  .aboutMeContainer {
+    width: 100%;
+    float: left;
+    border-bottom-style: solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-width: 5px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  .connectWithMeContainer {
+    width: 100%;
+    height: 150px;
+    border-bottom-style: solid;
+    margin-top: 25px;
+    border-width: 5px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  .hr1 {
+    width: 560px;;
+    color: #666666;
+  }
+  .hr2 {
+    width: 560px;
+    color: #666666;
+    margin-left: 12px;
+  }
+  .github {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-left: 15px;
+  }
+  .aboutMe {
+    margin-left: 20px;
+  }
+  .beach, .burger, .music, .nightlife, .dog {
+    margin-right: 20px;
+    top: 270px;
+    width: 38%;
+    height: 265px;
+    box-sizing: border-box;
+  }
+  .absolute1, .absolute2, .absolute3, .absolute4, .absolute5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 38%;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 28px;
+    background: #2AB546;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .absolute2, .absolute4 {
+    left: 332px;
+  }
+  .absolute2 {
+    font-size:24px;
+  }
+  h3 {
+    padding-left: 15px;
+    text-align: left;
+  }
+}
+@media screen and (max-width:640px) {
+  .container {
+    width: 640px;
+    margin: 0 auto;
+  }
+  .container2 {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .container3 {
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .ProfilePicture {
+    width: 100%;
+    height: 50%;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  .pSpecial {
+   font-family: 'Raleway', sans-serif;
+   color: #777777;
+   margin-left: 10px;
+   margin-right: 40px;
+  }
+  .aboutMeContainer {
+    width: 100%;
+    float: left;
+    border-bottom-style: solid;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    border-width: 5px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  .connectWithMeContainer {
+    width: 100%;
+    border-bottom-style: solid;
+    margin-top: 25px;
+    border-width: 5px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  .hr1 {
+    width: 460px;;
+    color: #666666;
+  }
+  .hr2 {
+    width: 460px;
+    color: #666666;
+    margin-left: 12px;
+  }
+  .github {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-left: 15px;
+  }
+  .aboutMe {
+    margin-left: 20px;
+  }
+  .beach, .burger, .music, .nightlife, .dog {
+    margin-right: 20px;
+    top: 270px;
+    width: 85%;
+    height: 265px;
+  }
+  .absolute1, .absolute2, .absolute3, .absolute4, .absolute5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 85%;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 28px;
+    background: #2AB546;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .absolute2, .absolute4 {
+    top: 510px;
+  }
+  h3 {
+    padding-left: 15px;
+    text-align: left;
+  }
+  .Name {
+      width:100%;
+      margin:0px;
+    }
+  .header {
+    height: 200px;
+  }
+  nav {
+    height: 100px;
+    width: 100%;
+  }
 }
